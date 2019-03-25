@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/list_view_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/add_check_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/task_icon"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_check_image"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:paddingTop="@dimen/button_padding"
+            android:text="@string/empty_screen"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:adjustViewBounds="true"
+        android:alpha=".9"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/task_icon"
+        app:backgroundTint="@color/colorAccent"
+        app:borderWidth="@dimen/fab_button_border"
+        app:rippleColor="@color/colorPrimary" />
+</RelativeLayout>

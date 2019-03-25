@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_height"
+    android:background="@drawable/list_item_background"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        tools:text="@string/item_name_display_example" />
+
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:text="@string/item_price" />
+
+    <TextView
+        android:id="@+id/display_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/display_quantity"
+        android:layout_centerVertical="true"
+        tools:text="@string/display_price_example" />
+
+    <TextView
+        android:id="@+id/display_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/quantity_item"
+        android:layout_toStartOf="@+id/item_name"
+        tools:text="@string/quantity_example" />
+
+    <TextView
+        android:id="@+id/quantity_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/item_price"
+        android:layout_marginBottom="39dp"
+        android:text="@string/quantity" />
+
+    <Button
+        android:id="@+id/sale_button"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/item_price"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/button"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/sale" />
+</RelativeLayout>

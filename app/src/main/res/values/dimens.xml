@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="fab_button_border">4dp</dimen>
+    <dimen name="fab_margin">30dp</dimen>
+    <dimen name="inventory_text_view_padding" tools:keep="@dimen/inventory_text_view_padding">20dp
+    </dimen>
+    <dimen name="product_details_padding">4dp</dimen>
+    <dimen name="product_details_width">0dp</dimen>
+    <dimen name="editor_padding">50dp</dimen>
+    <dimen name="layout_editor_padding">20dp</dimen>
+    <dimen name="product_name_margin">25dp</dimen>
+    <dimen name="quantity_linear_padding">50dp</dimen>
+    <dimen name="quantity_details_width">0dp</dimen>
+    <dimen name="supplier_layout_width">0dp</dimen>
+    <dimen name="supplier_padding">4dp</dimen>
+    <dimen name="supplier_field_margin">25dp</dimen>
+    <dimen name="price_display_margin">116dp</dimen>
+    <dimen name="item_margin">31dp</dimen>
+    <dimen name="price_margin">15dp</dimen>
+    <dimen name="sale_button_margin">28dp</dimen>
+    <dimen name="sale_button_margin_end">34dp</dimen>
+    <dimen name="layout_height">180dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="quantity_text_size">12sp</dimen>
+    <dimen name="quantity_button_layout">30dp</dimen>
+    <dimen name="quantity_button_plus_size">12sp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+</resources>
