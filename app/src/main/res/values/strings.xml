@@ -13,11 +13,7 @@
     <string name="delete">Delete</string>
     <string name="quantity_0_999">0 - 999</string>
     <string name="supplier_details">Supplier Details</string>
-<<<<<<< HEAD
     <string name="supplier_name">Supplier Namgie</string>
-=======
-    <string name="supplier_name">Supplier Name</string>
->>>>>>> origin/master
     <string name="editor_insert_item_failed">Saving item error</string>
     <string name="item_successful">Item Saved</string>
     <string name="item_failed">Error with updating item</string>
@@ -39,11 +35,7 @@
     <string name="edit_item">Edit existing item</string>
     <string name="required_field">This field is required !</string>
     <string name="welcome_1">Inventory App</string>
-<<<<<<< HEAD
     <string name="welcome_2">Welcome In Udacity Inventory App Stage 2</string>
-=======
-    <string name="welcome_2">Welcome In Udacity Inventory App Stage 2 !</string>
->>>>>>> origin/master
     <string name="item_price">Item Price</string>
     <string name="display_price_example">1</string>
     <string name="item_name_display_example">Item One</string>
