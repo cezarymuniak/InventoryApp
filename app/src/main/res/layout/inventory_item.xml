@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_height"
+    android:background="@drawable/list_item_background"
+    android:padding="@dimen/layout_padding">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/item_margin"
+        tools:text="@string/item_name_display_example" />
+
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/price_margin"
+        android:text="@string/item_price"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
+
+    <TextView
+        android:id="@+id/display_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/price_display_margin"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white"
+        tools:text="@string/display_price_example" />
+
+    <TextView
+        android:id="@+id/display_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/display_item_price"
+        android:layout_alignTop="@+id/quantity_item"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white"
+        tools:text="@string/quantity_example" />
+
+    <TextView
+        android:id="@+id/quantity_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/item_price"
+        android:layout_below="@+id/sale_button"
+        android:text="@string/quantity"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small" />
+
+    <Button
+        android:id="@+id/sale_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sale_button_margin"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/item_price"
+        android:layout_marginEnd="@dimen/sale_button_margin_end"
+        android:background="@drawable/button"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/sale"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/white" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Inventory App</string>
+    <string name="save_button">Save</string>
+    <string name="saving_error_toast" tools:keep="@string/saving_error_toast">Saving item error</string>
+    <string name="saving_toast" tools:keep="@string/saving_toast">Item is saved with row id:</string>
+    <string name="product_details">Product Details</string>
+    <string name="product_name">Product Name</string>
+    <string name="price_decimal">Price ( decimal )</string>
+    <string name="action_delete" tools:keep="@string/action_delete">Delete Item</string>
+    <string name="delete_item_error">Item deleting error</string>
+    <string name="deleted_all">All Items are deleted</string>
+    <string name="delete_all">Delete all items</string>
+    <string name="delete">Delete</string>
+    <string name="quantity_0_999">0 - 999</string>
+    <string name="supplier_details">Supplier Details</string>
+    <string name="supplier_name">Supplier Namgie</string>
+    <string name="editor_insert_item_failed">Saving item error</string>
+    <string name="item_successful">Item Saved</string>
+    <string name="item_failed">Error with updating item</string>
+    <string name="update_item_successful">Item Updated</string>
+    <string name="error_deleting_item">Deleting item error</string>
+    <string name="item_deleted">Item Deleted</string>
+    <string name="discard_quit">Discard and quit?</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_item">Add new item</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="delete_item">Item will be deleted.\n\nAre you sure ?</string>
+    <string name="supplier_phone_number">Supplier Phone Number</string>
+    <string name="empty_screen">Click button below to add first Item</string>
+    <string name="button_minus_sign">-</string>
+    <string name="button_plus_sign">+</string>
+    <string name="minimum_quantity" tools:keep="@string/minimum_quantity">0</string>
+    <string name="call_supplier">Call to Supplier</string>
+    <string name="edit_item">Edit existing item</string>
+    <string name="required_field">This field is required !</string>
+    <string name="welcome_1">Inventory App</string>
+    <string name="welcome_2">Welcome In Udacity Inventory App Stage 2 !</string>
+    <string name="item_price">Item Price</string>
+    <string name="display_price_example">1</string>
+    <string name="item_name_display_example">Item One</string>
+    <string name="sale">Sale</string>
+    <string name="quantity">Quantity</string>
+    <string name="quantity_example">120</string>
+
+</resources>
